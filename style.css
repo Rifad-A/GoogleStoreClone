@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(238, 234, 234);
+    box-shadow: 10px 5px 5px rgba(0, 0,0,0.1);
+    
+}
+
+.icon:hover{
+  color: blue;
+}
+
+.header img{
+    width: 35px;
+    height: 35px;
+    margin-left: 15px ;
+    margin-top: 10px;
+}
+li{
+    list-style-type: none;
+}
+.header ul {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.header ul li{
+    margin-right:18px ;
+}
+.main{
+    width: 100%;
+    height: 220px;
+    text-align: center;
+    padding-top: 45px;
+    font-size: x-large;
+    color:#3c4043;
+}
+.main span{
+    color: #188038;
+}
+.middle{
+    width: 100%;
+    height: auto;
+    display: flex;
+
+}
+.sidebar{
+    width: 25% ;
+    height: 100vh;
+    margin-left: 20px;
+
+}
+.sidebar p{
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    color: #3c4043;
+}
+.sidebar ul li{
+    margin-bottom: 20px;
+    color: #3c4043;
+    letter-spacing: 1px;;
+
+}
+.products{
+    width: 75%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+}
+.items{
+    background-color: rgba(223, 219, 219, 0.356);
+    width: 380px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    position: relative;
+    border-radius: 1rem;
+    
+}
+.items img{
+    width: 320px;
+    transition-duration: .3s;
+}
+.items img:hover{
+    transform: scale(1.15);
+}
+.items p{
+    font-size: 1rem;
+    font-weight: 700;
+    position: absolute;
+    bottom:-2.3rem;
+    left: 0;
+    color: #3c4043;
+}
+.endsection{
+    width: 100%;
+    height: 180px;
+    margin-top: 60px;
+
+    display: flex;
+    align-items: center;
+
+    justify-content:flex-end ;
+   
+
+}
+a{
+    text-decoration: none;
+    color: #3c4043;
+}
+.endsection ul a li{
+   
+    margin-right: 30px;
+    margin-top: 20px;
+}
+footer{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.fotright li a img{
+    width: 18px;
+    height: 13px;
+}
+.fotleft {
+    display: flex;
+    align-items: center;
+    
+}
+.fotleft li a i{
+    margin-left: 25px;
+
+}
+.fotright{
+    display: flex;
+    align-items: center;
+}
+.fotright li a{
+    font-size: small;
+    margin-right: 10px;
+}
